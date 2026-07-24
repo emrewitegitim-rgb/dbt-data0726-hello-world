@@ -34,4 +34,8 @@ sources:
 models:
   - name: order_details
     description: "order details including total qty and revenue"
-    
+    columns:
+      - name: total_revenue
+        tests:
+          - not_null
+          
